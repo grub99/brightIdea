@@ -1,0 +1,15 @@
+GET http://localhost:8000/api/user/loggedin
+
+###
+post http://localhost:8000/api/user/register
+Content-Type: application/json
+
+{
+    "username": "Charlie Parker",
+    "alias": "Bird",
+    "email": "cp@yahoo.com",
+    "password": "scrapple",
+    "confirmPassword": "scrapple", 
+}
+
+
